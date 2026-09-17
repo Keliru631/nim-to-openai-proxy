@@ -68,7 +68,7 @@ validateConfig();
 // backend model ID where an entry was swapped out for a dead catalog entry.
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'nvidia/nemotron-3-super-120b-a12b',
-  'gpt-4': 'z-ai/glm-5-3',
+  'gpt-4': 'z-ai/glm-5.3',
   'gpt-3.5': 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning', // was qwen/qwen3.5-397b-a17b
   'gpt-4-turbo': 'moonshotai/kimi-k3',
   'claude-3-opus': 'google/diffusiongemma-26b-a4b-it',
@@ -97,7 +97,7 @@ const FALLBACK_MODELS = [
   'google/diffusiongemma-26b-a4b-it',
   'google/gemma-4-31b-it',
   'mistralai/mistral-nemotron',
-  'nvidia/nemotron-3-super-120b-a12b'
+  'z-ai/glm-5.3'
 ];
 
 // ─── Middleware ─────────────────────────────────────────────────────────
